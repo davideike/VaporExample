@@ -11,7 +11,7 @@
 
     drop.get("/name",":name") { request in
         if let name = request.parameters["name"]?.string {
-            return "Hello \(name)!"
+            return "Hi There, \(name)!"
         }
         return "Error retrieving parameters."
     }
