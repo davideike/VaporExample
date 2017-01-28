@@ -17,10 +17,10 @@
     }
     
     
-    /*
+    
     drop.get("/view") { request in
-        return try drop.view("view.html")
+        return try drop.view.make("view.html")
     }
-  */
+  
     
     drop.run()
